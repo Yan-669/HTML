@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url(../6-OnePageLayout/webfont/britannic/stylesheet.css.css);
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: auto;
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        h1,
+        h3 {
+            font-family: 'britannic_boldregular';
+        }
+
+        nav ul li.button {
+            opacity: 100%
+        }
+
+        header {
+            height: 75px;
+            width: 72%;
+            margin: auto;
+            line-height: 75px;
+        }
+
+        header nav {
+            text-transform: uppercase;
+        }
+
+        header h1 {
+            float: left;
+        }
+
+        header nav {
+            float: right;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 100px;
+            font-weight: bold;
+        }
+
+        /*BUTTON effect*/
+        nav ul li:hover,
+        .button:hover {
+            opacity: 30%;
+            transition: 0.2s ease-in-out;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        /*------banner------*/
+        #banner img {
+            width: 100%;
+            height: auto;
+        }
+
+        #content-text {
+            margin: 6%;
+            text-align: center;
+        }
+
+        #content-text h1 {
+            font-size: 60px;
+        }
+
+        #content-text h3 {
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        #content-text a p {
+            width: 80px;
+            margin: auto;
+            padding: 10px;
+            border: 3px solid white;
+            border-radius: 32px;
+            margin-top: 25px;
+            font-weight: bold;
+
+        }
+
+        #content {
+            overflow: overlay;
+
+        }
+
+        #content img {
+            width: 25%;
+            height: auto;
+            float: left;
+            transition: 0.6s ease-in-out;
+        }
+
+        #content img:hover {
+            filter: grayscale(100%);
+            transition: 0.6s ease-in-out;
+        }
+
+        footer {
+            margin: 3%;
+            text-align: center;
+        }
+    </style>
+
+
+
+
+
+
+    <title>Yayoi Kusama</title>
+    <link href="styles/styles.css" rl="stylesheet" type="webfont/css" />
+</head>
+
+</html>
+
+
+<body>
+    <div id="container">
+        <header>
+            <h1 id="logo-text">Yayoi Kusama</h1>
+            <nav>
+                <ul>
+                    <li><a href="banner">Home</a></li>
+                    <li><a href="#content-text"></a>About</li>
+                    <li><a href="#content">Work</a></li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="banner">
+            <img src="images/banner.jpg" alt="banner" width="960" height="400">
+        </div><!--END OF banner-->
+        <div id="content-text">
+            <h1>Yayoi Kusama</h1>
+            <h3>Japanese Artist</h3>
+
+            <p>pulvinar risus et nisi sagittis, eget porttitor nunc sagittis.
+                Nunc facilisis arcu vel lacus consequat blandit.
+                Sed vehicula libero eget purus vulputate mattis.
+                Nullam feugiat, tortor eget fermentum porta, nisl mi consectetur magna, condimentum molestie nulla lacus
+                nec libero.
+                Cras sagittis pretium mi vitae scelerisque.
+                Vestibulum eu nisl id nunc consectetur vehicula.
+                Vivamus placerat pharetra erat.
+                Suspendisse eu ligula non orci cursus finibus.
+                Duis ac bibendum mauris.</p>
+            <a href="#" class="button"><p>About</p></a>
+
+        </div><!--END OF contect-text-->
+
+        <div id="content">
+            <img class=button src="images/artwork-01.jpg" width="240" height="240" alt="portfolio1" />
+            <img src="images/artwork-02.jpg" width="240" height="240" alt="portfolio2" />
+            <img src="images/artwork-03.jpg" width="240" height="240" alt="portfolio3" />
+            <img src="images/artwork-04.jpg" width="240" height="240" alt="portfolio4" />
+            <img src="images/artwork-05.jpg" width="240" height="240" alt="portfolio5" />
+            <img src="images/artwork-06.jpg" width="240" height="240" alt="portfolio6" />
+            <img src="images/artwork-07.jpg" width="240" height="240" alt="portfolio7" />
+            <img src="images/artwork-08.jpg" width="240" height="240" alt="portfolio8" />
+        </div><!--END OF content-->
+
+        <footer>
+            <div id="social-media-icon">
+                <img class="button" src="images/fb.png" width="30" height="30" alt="facebook" />
+                <img class="button" src="images/ig.png" width="30" height="30" alt="instagram" />
+                <img class="button" src="images/yt.png" width="30" height="30" alt="youtube" />
+                <p>Copyright 2023 Yayoi Kusama.All Right Reserved.</p>
+            </div><!--END OF social media-->
+
+        </footer>
+
+
+    </div> <!--END OF container-->
+
+</body>

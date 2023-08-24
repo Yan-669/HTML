@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:70%;
+    margin:auto;
+    background-color: #BBD2FF;
+}
+
+body {
+    background-image: url("styles/styles.css/KenyaHaraSideView.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,30 @@
+/*CSS Document*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:70%;
+    margin:auto;
+    background-image:url("../images/bg.jpg");
+
+}
+
+header img{
+    width:100%;
+    height:auto;
+
+}
+
+container{
+    background-color:blue;
+}
+
+.content-text{
+    padding:1%;
+}
+
+footer{
+    background-color:yellow;
+}

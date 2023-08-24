@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    width:71%;
+    margin:auto;
+}
+
+header{
+    text-align:center;
+    text-transform:uppercase;
+}
+
+nav ul{
+    list-style-type:none;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:0 2%;
+}
+
+nav ul a li{
+color:black;
+}
+
+nav ul a li:hover{
+    background-color: #582006;
+    color:white;
+}
+
+#page1,#page2,#page3{
+    background-color:antiquewhite;
+    padding:1%;
+    margin:2%;
+    overflow:hidden;
+}
+
+.page_contet{
+    width:50%;
+    float:left;
+    padding:8%;
+}
+
+.image{
+    width:50%;
+    float:right;
+    padding:2% 5% 0 0;
+}

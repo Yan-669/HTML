@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:antiquewhite;
+}
+
+#container{
+    width:960px;
+    margin:auto;
+}
+
+.text-content{
+    text-align:center;
+    width:420px;
+    margin:auto;
+    border:1px solid #555555;
+    padding:30px;
+    color:#646464;
+
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    margin-bottom:23px;
+    line-height:46px;
+    font-weight:800;
+    color:black;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    text-transform:uppercase;
+    margin-bottom:23px;
+    letter-spacing:2px;
+}
+
+h3{
+    font-family: 'Merriweather', serif;
+
+}
